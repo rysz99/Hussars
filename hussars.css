@@ -1,0 +1,279 @@
+body 
+{
+   background-color: #575757;
+   margin: 0;
+   font-size: 28px;
+   opacity: 100%;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0;
+    line-height: 280%;
+    letter-spacing: 12px;
+}
+
+h2
+{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    background-color: #222222;
+    padding: 30px;
+    margin: 0;
+}
+
+h2,h3
+{
+    text-align: center;
+}
+
+.logo
+{
+    width: 100%;
+    height: 160px;
+    background-image: linear-gradient(to bottom, white 50%, red 50%);
+    margin: 0;
+    text-align: center; 
+    border-bottom: 3px solid black;   
+    font-size: 22px; 
+    opacity: 60%;
+}
+
+.logo > div
+{
+    height: 160px;
+}
+
+.logo > .img
+{
+    width: 170px;
+    text-align: center;
+}
+
+.logo img
+{
+    margin: 0;
+    padding: 0;
+    height: 160px;
+    width: 170px;
+}
+
+.other
+{
+    transform: scaleX(-1);
+}
+
+.logo#border
+{
+    border-bottom: none;
+    border-top: 3px solid black;
+}
+
+p.intro
+{
+    text-align: center;
+    line-height: 212%;
+    background-color: #777777;
+    padding: 40px 10px;
+    margin: 0;
+    font-size: 26px;
+    color: darkmagenta;
+    letter-spacing: 1px;
+}
+
+div.intro
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(intro.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;  
+    background-size: 100%;  
+}
+
+#menu
+{
+    background-color: #000;
+    color: #fff;
+    padding: 50px 10px 30px;
+    text-align: center;
+    font-size: 26px;
+    height: 181px;   
+    z-index: 1000; 
+}
+
+#shadow
+{
+    color: black;
+    text-shadow:
+    1px 1px 0 white,
+    -1px 1px 0 lightgreen,
+    -1px -1px 0 white,
+    1px -1px 0 lightgreen;
+    font-size: 35px;
+    letter-spacing: 12px;
+}
+
+.transform
+{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+ol,ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul
+{
+    margin: 0;
+    position: relative;
+    display: none;
+}
+
+ul > li
+{
+    text-transform: none;
+    letter-spacing: 3px;
+}
+
+ul > li:first-child
+{
+    border-top: 3px solid black;
+}
+
+ul > li:hover
+{
+    background-color: #333333;
+    color: black;
+    font-weight: bold;
+}
+
+ol
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    z-index: 1000;
+    line-height: 166%;   
+}
+
+ol > li
+{
+    float: left;
+    width: 313px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    border: 3px solid black;
+    border-top: none;
+    transition: all 1.8s ease-in-out;
+}
+
+ol > li:hover
+{
+    background-color: #222222;
+}
+
+ol > li:hover ul
+{
+    display: block;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ol > li > a
+{
+    display: block;
+    color: white;
+    width: 319px;
+    transition: transform 2s ease-in-out;
+}
+
+ol > li > a:hover
+{
+    transform: rotate(360deg);
+}
+
+ul > li > a
+{
+    color: black;
+    width: 319px;
+    display: block;
+}
+
+section 
+{
+    margin-top: 240px;
+}
+
+p
+{
+    text-align: justify;
+    padding: 15px 25px;
+    line-height: 190%;
+}
+
+article
+{
+    margin-bottom: 480px;
+}
+
+main > article:last-child
+{
+    margin-bottom: 0;
+}
+
+h2 > a
+{
+    color: white;
+    display: block;
+    padding: 30px;
+}
+
+h3
+{
+    letter-spacing: 3px;
+    background-color: #333333;
+    padding: 20px;
+}
+
+h3 > a
+{
+    display: block;
+    padding: 20px;
+}
+
+section > header > p
+{
+   margin-top: 50px; 
+}
+
+article > header > p
+{
+    margin-top: 75px;
+}
+
+footer > div
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    letter-spacing: 6px;
+}
